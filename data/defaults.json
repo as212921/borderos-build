@@ -10,7 +10,11 @@
   "release_train": "crux",
   "additional_repositories": [
     "deb http://archive.repo.saltstack.com/apt/debian/8/amd64/2017.7 jessie main",
-    "deb http://archive.debian.org/debian/ jessie-backports main"
+    "deb http://archive.debian.org/debian/ jessie-backports main",
+    "deb http://repo.as212921.net/ border main"
   ],
-  "custom_packages": []
+  "custom_packages": [
+    "pdns-server",
+    "pdns-backend-sqlite3"
+  ]
 }
